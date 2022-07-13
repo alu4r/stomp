@@ -1,0 +1,21 @@
+package frame
+
+const (
+	CONNECT   = "CONNECT"
+	STOMP     = "STOMP"
+	CONNECTED = "CONNECTED"
+
+	SEND        = "SEND"
+	SUBSCRIBE   = "SUBSCRIBE"
+	UNSUBSCRIBE = "UNSUBSCRIBE"
+	ACK         = "ACK"
+	NACK        = "NACK"
+	BEGIN       = "BEGIN"
+	COMMIT      = "COMMIT"
+	ABORT       = "ABORT"
+	DISCONNECT  = "DISCONNECT"
+
+	MESSAGE = "MESSAGE"
+	RECEIPT = "RECEIPT"
+	ERROR   = "ERROR"
+)
